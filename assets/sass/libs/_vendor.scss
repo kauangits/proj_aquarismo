@@ -368,9 +368,9 @@
 			    }
 			}
 
-		// Neither? Treat them as a normal declaration.
+			// Neither? Treat them as a normal declaration.
 			@else {
-		        #{$property}: #{$value};
+				#{$property}: #{$value};
 			}
-
-	}
+		}
+			
