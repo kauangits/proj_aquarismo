@@ -1,0 +1,70 @@
+
+ body, p {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 10px;
+  }
+  
+  .produto {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+  
+  .produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .produto img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  
+  a .button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  
+  
+  @media (max-width: 768px) {
+    .produto {
+      width: 250px;
+    }
+  
+    .produto img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    a .button {
+      font-size: 0.8em;
+     
+    }
+  }
+  
+
+
+  
