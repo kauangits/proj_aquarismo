@@ -4,7 +4,7 @@ Bem-vindo ao nosso **Site de Aquarismo**, um projeto desenvolvido com carinho e 
 
 Este site foi pensado para oferecer uma experiência agradável, acessível e informativa para todos que amam o mundo aquático, com informações úteis e um design responsivo que se adapta a qualquer dispositivo.
 
-![Projeto aquarismo](./images/preview.png)
+![Projeto aquarismo](./images/preview.jpg)
 
 ---
 
